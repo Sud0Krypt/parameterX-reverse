@@ -1,8 +1,7 @@
 # PerimeterX-Reverse
 
 
-
-Solver ^UPDATED REVERSED/SOLVED SCRIPT^
+I POSTED UPDATED REVERSED/SOLVED SCRIPT ALREADY
 
 Contact provided below for inquiries regarding the purchase of newer or older versions of PerimeterX, please reach out via Telegram or Discord (Telegram preferred). Contact details are provided above.
 
