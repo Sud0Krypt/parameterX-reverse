@@ -14,7 +14,7 @@ Contact provided below for inquiries regarding the purchase of newer or older ve
 
 This repo is gonna be my progress as I continue to attempt to reverse engineer PerimeterX's challenge untill I can produce a fully unflagged bypass/solver that's completley automated using only request no browser. I plan to scrape Device WEBGL Fingerprints and make my own Motion Data if needed.
 
-**How can I try to avoid getting prompted with this PerimeterX captcha?**
+## **How can I try to avoid getting prompted with this PerimeterX captcha?**
 
 Use High Quality IP Addresses | low fraud score, residential IP (best)
 
@@ -23,7 +23,8 @@ Use Undetected Drivers | If you're using something such as selenium, puppeteer o
 Unflagged TLS | It is important to insure that your request is not being flagged due to its TLS Fingerprint. One way you can try to avoid this is to use a library that allows you to modify your TLS properties such as TLS_CLIENT which allows you to spoof some of your properties such as extension order, supported cipher suites and some basic window properties. Please note this will not always be enough to not get prompted with antibot challenges.
 
 Unflagged WEBGL/Device Fingerprints | If the antibot service you're trying to get around is any good it will check something called a device hash/fingerprint that was computed from data collected from properties it was able to gather from you visiting the site. Suprisingly, the computed fingerprint is usually very unique (only 1 in around 200,000 devices produce the same hash) this makes it easy to tell the antibot services if your request is coming from a client with the same browser properties (CPU, GPU, CanvasFP, Screen Resolution, Screen Dimensions, User-Agent, Browser Extensions, Timezone just to name a few) as you can see you can't spoof these types of things with only a request library which is where things get more complex and why it may be required to reverse engineer the antibot's encryption methods and fingerprint methods so you're able to spoof these properties.
-How it works
+
+## How it works
 
 PerimeterX Challenge Example (shown on ssense.com)
 
